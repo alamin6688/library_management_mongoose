@@ -3,7 +3,7 @@ dotenv.config();
 import mongoose from "mongoose";
 import { Server } from "http";
 import app from "./app";
-import config from "../config";
+import config from "./config";
 
 let server: Server;
 const port = config.port || 3000;
